@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import Button from '@mui/material/Button'
+// import { useState } from 'react'
+import * as React from 'react'
+import Board from './pages/Boards/_id'
+// import { useColorScheme } from '@mui/material/styles'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      cuong
-      <Button variant="contained">Hello world</Button>
+      {/* React Router DOM */}
+      <Board/>
     </>
-  );
+  )
 }
 
 export default App
